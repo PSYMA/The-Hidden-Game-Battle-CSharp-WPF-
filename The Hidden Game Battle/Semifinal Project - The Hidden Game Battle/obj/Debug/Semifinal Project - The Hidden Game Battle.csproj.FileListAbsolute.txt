@@ -1,0 +1,33 @@
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.exe.config
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.exe
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.pdb
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\MainWindow.g.cs
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\StartGameWindow.g.cs
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\App.g.cs
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_Content.g.cs
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_MarkupCompile.cache
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_MarkupCompile.lref
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\MainWindow.baml
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\StartGameWindow.baml
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.g.resources
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal_Project___The_Hidden_Game_Battle.Properties.Resources.resources
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.csproj.GenerateResource.cache
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.exe
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.pdb
+C:\Users\Psyma\source\repos\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.csprojAssemblyReference.cache
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.exe.config
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.exe
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\bin\Debug\Semifinal Project - The Hidden Game Battle.pdb
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\MainWindow.g.cs
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\StartGameWindow.g.cs
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\App.g.cs
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_Content.g.cs
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_MarkupCompile.cache
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle_MarkupCompile.lref
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\MainWindow.baml
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\StartGameWindow.baml
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.g.resources
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal_Project___The_Hidden_Game_Battle.Properties.Resources.resources
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.csproj.GenerateResource.cache
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.exe
+D:\C# Programs\School Activities\Semifinal Project - The Hidden Game Battle\Semifinal Project - The Hidden Game Battle\obj\Debug\Semifinal Project - The Hidden Game Battle.pdb

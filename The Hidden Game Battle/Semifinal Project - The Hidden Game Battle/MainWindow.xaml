@@ -1,0 +1,157 @@
+﻿<Window x:Class="Semifinal_Project___The_Hidden_Game_Battle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semifinal_Project___The_Hidden_Game_Battle"
+        mc:Ignorable="d"
+        Icon="/Images/Pictures/ph.ico"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" x:Name="_gameWindow"
+        Background="Transparent" ResizeMode="CanMinimize" Height="500" Width="1000">
+
+    <Canvas>
+        
+        <Canvas Panel.ZIndex="1" x:Name="_helpCanvas1" Width="1000" Height="500" Canvas.Left="-1000">
+            <MediaElement MediaEnded="Media_Ended" Width="1000" Height="500" Source="../../Images/Videos/Help.wmv" LoadedBehavior="Manual" Name="_videoMedia" />
+            <Rectangle x:Name="_ninja1Rec" Height="100" Width="100" Canvas.Left="-100" Canvas.Top="300"/>
+            <Rectangle x:Name="_ninja2Rec" Height="100" Width="100" Canvas.Left="500" Canvas.Top="300"/>
+            <Rectangle Panel.ZIndex="1" Fill="White" Width="365" Height="30" Canvas.Left="318" Canvas.Top="465"/>
+            <Grid Canvas.Left="318" Canvas.Top="465" Width="365" Height="30" Panel.ZIndex="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Click="PlayVideoButton_Click" Width="100" Height="31" Grid.Column="0">
+                    <Button.Content>
+                        <Image Source="/Images/Pictures/PLAY.png"/>
+                    </Button.Content>
+                </Button>
+                <Button Click="PauseVideoButton_Click" Width="100" Height="31" Grid.Column="1">
+                    <Button.Content>
+                        <Image Source="/Images/Pictures/PAUSE.png"/>
+                    </Button.Content>
+                </Button>
+                <Button Click="BackVideoButton_Click" Width="100" Height="31" Grid.Column="2">
+                    <Button.Content>
+                        <Image Source="/Images/Pictures/BACK.png"/>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Canvas>
+        <Canvas x:Name="_snowCanvas" Height="500" Width="1000"/>
+        <Canvas Width="1000" Height="200">
+            <Image Canvas.Left="-3" Height="150" Stretch="Uniform" Opacity=".0" x:Name="_gameTitleImage1" Width="990" Source="/Images/Pictures/Hidden Battle Game.png"/>
+            <Rectangle Canvas.Left="960" x:Name="_dinoRec" Opacity=".0" Width="100" Height="95" Canvas.Top="20"/>
+            <Rectangle Canvas.Top="400" Canvas.Left="0" Width="1000" Height="100" x:Name="_oceanRec" Opacity=".0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Images/Pictures/ocean.png"
+                                Stretch="UniformToFill"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Canvas.Top="300" Canvas.Left="1000" Width="250" Height="150" x:Name="_ship1Rec">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Images/Pictures/ship1.png"
+                                Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Canvas.Top="360" Canvas.Left="1300" Width="250" Height="150" x:Name="_ship2Rec">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Images/Pictures/ship2.png"
+                                Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Canvas>
+        <Canvas x:Name="_preperationCanvas" Canvas.Left="1000" Canvas.Top="99" Height="350" Width="500">
+            <Grid Width="500" Height="350">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--player 1-->
+                <ComboBox x:Name="_player1ComboBox" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" Width="150" Height="100">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding image}" Height="100" Width="150"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <TextBox Text="Player 1" MaxLength="10" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" x:Name="_player1NameTextBox" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Height="40" Width="200"/>
+                <RadioButton x:Name="_player1MaleRadioButton"   GroupName="player1" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="0" Grid.Row="3" Content="Male"   FontWeight="Bold" FontSize="20"  Foreground="Wheat" Grid.ColumnSpan="2" Margin="46,0,35,0"/>
+                <RadioButton x:Name="_player1FemaleRadioButton" GroupName="player1" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Grid.Row="3" Content="Female" FontWeight="Bold" FontSize="20" Foreground="Wheat" Grid.ColumnSpan="2" Margin="54,0,27,0"/>
+                <!--player 2-->
+                <ComboBox x:Name="_player2ComboBox" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan="2" Width="150" Height="100">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding image}" Height="100" Width="150"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <TextBox Text="Player 2" MaxLength="10" Foreground="Blue" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="20" x:Name="_player2NameTextBox" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="3" Height="40" Width="200"/>
+                <RadioButton x:Name="_player2MaleRadioButton"   GroupName="player2" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="3" Grid.Row="3" Content="Male"   FontWeight="Bold" FontSize="20"  Foreground="Wheat" Grid.ColumnSpan="2" Margin="46,0,35,0"/>
+                <RadioButton x:Name="_player2FemaleRadioButton" GroupName="player2" VerticalAlignment="Center" VerticalContentAlignment="Center" Grid.Column="4" Grid.Row="3" Content="Female" FontWeight="Bold" FontSize="20" Foreground="Wheat" Grid.ColumnSpan="2" Margin="54,0,27,0"/>
+                <Button Click="StartNowButton_Click" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Width="150" Background="Transparent">
+                    <Button.Content>
+                        <Image Source="/Images/Pictures/START.png"/>
+                    </Button.Content>
+                </Button>
+                <Button Click="CancelButton_Click"  Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="2" Width="150" Background="Transparent">
+                    <Button.Content>
+                        <Image Source="/Images/Pictures/CANCEL.png"/>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Canvas>
+        <Canvas x:Name="_aboutCanvas" Canvas.Top="100" Canvas.Left="1000" Height="350" Width="500">
+            <Ellipse x:Name="_myPicEllipse" Canvas.Top="40" Canvas.Left="130" Width="250" Height="250" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform  />
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform  />
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/Images/Pictures/Rickben.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Label Canvas.Top="10"  Canvas.Left="200"  Content="Creator" Foreground="BlueViolet" FontSize="20" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
+            <Label Canvas.Top="290" Canvas.Left="80" Content="Rickben Anthony Q. Gimeda" Foreground="BlueViolet" FontSize="20" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
+            <Label Canvas.Top="310" Canvas.Left="90" Content="BS Computer Engineering" Foreground="BlueViolet" FontSize="20" FontWeight="Bold" FontFamily="Rockwell Extra Bold"/>
+        </Canvas>
+
+        <Button Cursor="Hand" Canvas.Top="200" Canvas.Left="400" Width="200" Height="40" Background="Transparent" Opacity="0" x:Name="_button1" Click="StartGameButton_Click">
+            <Button.Content>
+                <Image Source="/Images/Pictures/START-GAME.png"/>
+            </Button.Content>
+        </Button>
+        <Button Cursor="Hand" Canvas.Top="260" Canvas.Left="400" Width="200" Height="40" Background="Transparent" Opacity="0" x:Name="_button2" Click="HelpButton_Click">
+            <Button.Content>
+                <Image Source="/Images/Pictures/HELP.png"/>
+            </Button.Content>
+        </Button>
+        <Button Cursor="Hand" Canvas.Top="320" Canvas.Left="400" Width="200" Height="40" Background="Transparent" Opacity="0" x:Name="_button3" Click="AboutButton_Click">
+            <Button.Content>
+                <Image Source="/Images/Pictures/ABOUT.png"/>
+            </Button.Content>
+        </Button>
+        <Button Cursor="Hand" Canvas.Top="380" Canvas.Left="400" Width="200" Height="40" Background="Transparent" Opacity="0" x:Name="_button4" Click="ExitButton_Click">
+            <Button.Content>
+                <Image Source="/Images/Pictures/EXIT.png"/>
+            </Button.Content>
+        </Button>
+    </Canvas>
+</Window>
